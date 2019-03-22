@@ -1,0 +1,23 @@
+{
+  "@babel/core": "latest",
+  "@types/jest": "latest",
+  "@types/react-native": "latest",
+  "@types/react-test-renderer": "latest",
+  "@types/react": "latest",
+  "babel-jest": "latest",
+  "babel-preset-react-native": "next",
+  "husky": "latest",
+  "jest": "latest",
+  "lint-staged": "latest",
+  "prettier": "latest",
+  "react-native-typescript-transformer": "latest",
+  "react-test-renderer": "latest",
+  "redux-logger": "latest",
+  "ts-jest": "latest",
+  "tslint-config-airbnb": "latest",
+  "tslint-config-prettier": "latest",
+  "tslint-react": "latest",
+  "tslint": "latest",
+  "typescript": "latest",
+  "redux-devtools-extension": "latest"
+}

@@ -1,0 +1,10 @@
+{
+  "styled-components": "latest",
+  "react-native-gesture-handler": "latest",
+  "react-native-responsive-fontsize": "latest",
+  "react-native-size-matters": "latest",
+  "react-native-typescript-transformer": "latest",
+  "react-navigation": "latest",
+  "react-redux": "latest",
+  "redux": "latest"
+}
