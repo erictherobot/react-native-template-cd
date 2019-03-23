@@ -3,13 +3,7 @@ const path = require('path')
 
 const projectFilesToDelete = ['.flowconfig', 'App.js', '__tests__/App-test.js']
 
-const templateFilesToDelete = [
-  'package.cd-template.json',
-  'scripts.json',
-  'setup.js',
-  'README.md',
-  'LICENSE',
-]
+const templateFilesToDelete = ['package.cd-template.json', 'scripts.json', 'setup.js', 'LICENSE']
 
 const deleteFile = filePath => {
   if (!fs.existsSync(filePath)) {

@@ -4,6 +4,7 @@
 
 ### Updates 03/21/2019
 - Uses latest React Native 0.59.1
+- Added React Hooks example
 - Added basic theming options
 - Added a basic component example
 - Added Size Matters to control sizes on all devices
