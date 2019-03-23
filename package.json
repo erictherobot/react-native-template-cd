@@ -1,6 +1,6 @@
 {
   "name": "react-native-template-cd",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "Quickly start a new React Native Project pre-configured with TypeScript, Prettier, TSLint, Redux, Firebase, Fastlane, Crashlytics, and React-Navigation.",
   "license": "MIT",
   "author": "Eric David Smith <eric@colorfuldots.com>",
