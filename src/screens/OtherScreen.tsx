@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Text, View } from 'react-native'
+import { ScrollView, Text } from 'react-native'
 import { NavigationScreenComponent, NavigationScreenProps } from 'react-navigation'
 
 import { ButtonComp } from '../components'
@@ -10,19 +10,23 @@ export interface OtherScreenProps extends NavigationScreenProps {
   // ... other props
 }
 
-export const OtherScreen: NavigationScreenComponent<OtherScreenProps> = ({ navigation }) => {
+export const OtherScreen: NavigationScreenComponent<OtherScreenProps> = ({
+  navigation,
+}: {
+  navigation: any
+}) => {
   const [getCount, setCount] = useState(0)
   const increment = React.useCallback(() => {
-    setCount(prev => prev + 1)
+    setCount((prev: any) => prev + 1)
   }, [])
   const decrement = React.useCallback(() => {
-    setCount(prev => prev - 1)
+    setCount((prev: any) => prev - 1)
   }, [])
   const navigateWelcome = React.useCallback(() => {
     navigation.navigate('WelcomeScreen')
   }, [])
   return (
-    <View style={ThemeStyles.container}>
+    <ScrollView contentContainerStyle={ThemeStyles.container}>
       <Text style={ThemeStyles.title}>Other Screen</Text>
       <ButtonComp
         title="Home Screen"
@@ -43,7 +47,7 @@ export const OtherScreen: NavigationScreenComponent<OtherScreenProps> = ({ navig
         color={THEME_BUTTON_COLOR}
         accessibilityLabel="Learn more about this button"
       />
-    </View>
+    </ScrollView>
   )
 }
 

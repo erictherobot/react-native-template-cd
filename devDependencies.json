@@ -4,6 +4,7 @@
   "@types/react-native": "latest",
   "@types/react-test-renderer": "latest",
   "@types/react": "latest",
+  "@types/react-navigation": "latest",
   "babel-jest": "latest",
   "babel-preset-react-native": "next",
   "husky": "latest",
