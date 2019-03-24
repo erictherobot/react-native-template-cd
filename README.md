@@ -2,14 +2,22 @@
 
 ![Screenshots](https://s3.amazonaws.com/colorfuldots/products/Screenshot+2019-03-22+07.55.56.png)
 
-### Updates 03/21/2019
-- Uses latest React Native 0.59.1
+### Updates 03/23/2019
+- Uses latest React Native (0.59.1)
 - Added React Hooks example
 - Added basic theming options
 - Added a basic component example
 - Added Size Matters to control sizes on all devices
 - Added Responsive Font to control font sizes on all devices
 - Added React Navigation and some additional Screens
+
+### Roadmap
+
+- Add Crashlytics
+- Add Fabric
+- Add Firebase / Firestore
+- Add Redux
+- Add Fastlane
 
 ### Requirements
 
@@ -46,6 +54,7 @@ Android Emulator:
 - [x] React-Navigation
 - [ ] Fastlane - WIP
 - [ ] Crashlytics - WIP
+- [ ] Fabric - WIP
 - [x] Prettier
 - [x] TSLint
 - [x] Jest
@@ -64,6 +73,13 @@ Android Emulator:
 
 - Pull Requests are helpful, fix it and ship it. 
 - Isssues regarding: `null is not an object ( evaluating 'RNGestureHandlerModule.Direction')` - find solution here: https://github.com/kmagiera/react-native-gesture-handler/issues/494
+- Issues regarding `Error: Unable to resolve module `./index` - just close metro and run `npm run start --reset-cache` or `yarn start --reset-cache` and you should be up and running. 
+
+### Author
+
+- [Colorful Dots, LLC](https://colorfuldots.com)
+- [Eric David Smith - LinkedIn](https://www.linkedin.com/in/erictherobot)
+- [@erictherobot](https://twitter.com/erictherobot)
 
 ### MIT License
 
